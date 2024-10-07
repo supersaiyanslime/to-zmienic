@@ -1,0 +1,5 @@
+exports.myFunction = function() { /* ... */ };
+na to
+export function myFunction() { /* ... */ };
+a jesli gdzies uzywane jest require(), zamień to na ES6 import:
+import { myFunction } from './myModule.js';
